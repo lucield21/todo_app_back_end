@@ -1,15 +1,60 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+html { 
+  Color: black ;
+  background-image: black;
+  font-family: courier;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: double white underline;
+  /*text-align: right;*/
+  border-style: double;
+  border-width: 56px;
+  border-color: #846f58;
+}
+
+.button {
+  background-color: red;
+}
+  
+.earth {
+  height: 160px;
+  width: 60px;
+}
+.first {
+  color: white;
+  font-size: 30px;
+  text-decoration: double #840000 underline;
+  text-align: left;
+}
+.lol{
+  color: #840000;
+  font-size: 20px;
+  text-decoration: double black underline;
+  text-align: center;
+  
+}
+.ber{
+  color: White;
+}
+.pop{
+  color: grey;
+}
+.crack{
+  color: #840000;
+}
+.image{
+  text-align: center;
+}
+.str:hover{
+  color: #000000;
+}
+.rob:hover{
+  color: #ff0000;
+}
+.gul:hover{
+  color: #5f1556;
+}
+
+h1{
+    color:orange;
+    
+}
